@@ -2,7 +2,7 @@
 @section('content')
 <div class="ui raised very padded text container segment">
 	<div>
-		<h2 class="ui header">Buat Cluster</h2>
+		<h2 class="ui header">Buat Klasifikasi</h2>
 	</div>
 	<div>
 		<p>

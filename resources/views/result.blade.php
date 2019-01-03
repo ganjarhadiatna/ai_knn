@@ -92,6 +92,7 @@
 				<th>Hasil Keputusan</th>
 			</thead>
 			<tbody>
+				<?php $no = 1; ?>
 				<tr class="ui center aligned">
 					<td><?php echo $no; ?></td>
 					<td>
@@ -110,7 +111,7 @@
 						{{ $d }}
 					</td>
 					<td>
-						{{ 'ya:'.$ya.' | tidak:'.$tidak.' | tunda:'.$tunda }}
+						{{ 'ya:'.$ya.' | tidak:'.$tidak.' | tunda:'.$tunda.' | ' }}
 						<?php 
 							if ($ya >= $tidak && $ya >= $tunda) 
 							{

@@ -15,7 +15,7 @@
 Route::get('/', 'MainController@index')->name('main-page');
 Route::get('/create', 'MainController@create')->name('main-create');
 Route::get('/edit/{id}', 'MainController@edit')->name('main-edit');
-Route::get('/cluster', 'MainController@cluster')->name('main-cluster');
+Route::get('/clasifications', 'MainController@cluster')->name('main-cluster');
 Route::get('/result/{k}/{a}/{b}/{c}/{d}', 'MainController@result')->name('main-result');
 
 

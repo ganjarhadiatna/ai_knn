@@ -41,17 +41,6 @@ class MainController extends Controller
     		'c' => $c,
     		'd' => $d
     	]);
-    	/*
-    	//pengurutan dan hasil
-    	$result = Result::Get($nilai_k);
-    	foreach ($result as $rs) {
-    		echo '('.$rs->lama_usaha.' - '.$lama_usaha.')^2 + ';
-    		echo '('.$rs->jumlah_pekerja.' - '.$jumlah_pekerja.')^2 + ';
-    		echo '('.$rs->omzet.' - '.$omzet.')^2 + ';
-    		echo '('.$rs->jumlah_aset.' - '.$jumlah_aset.')^2 = '.$rs->jarak;
-    		echo ' => '.$rs->hasil_keputusan.'<br>';
-    	}
-    	*/
     }
 
     //private

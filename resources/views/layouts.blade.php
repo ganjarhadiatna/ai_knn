@@ -56,7 +56,7 @@
     			<div class="right item">
     				<a href="{{ route('main-cluster') }}" class="ui positive button">
     					<i class="plus circle icon"></i>
-    					Buat Cluster
+    					Buat Klasifikasi
     				</a>
     				<div style="padding: 5px;"></div>
     				<a href="{{ route('main-create') }}" class="ui blue button">
